@@ -94,7 +94,7 @@
 </head>
 <body>
     <header>
-        <h1>RevUp Mobile Detailing</h1>
+        <h1>ACP Mobile Detailing</h1>
         <p>Top-Notch Detailing for Cars, Trucks, and SUVs</p>
     </header>
     <section class="pricing">
@@ -106,8 +106,8 @@
                     <li>Exterior Wash & Wax</li>
                     <li>Interior Vacuum & Clean</li>
                     <li>Tire Shine</li>
-                    <li>Basic: <span class="price">$50</span></li>
-                    <li>Premium: <span class="price">$80</span></li>
+                    <li>Basic: <span class="price">$80</span></li>
+                    <li>Premium: <span class="price">$160</span></li>
                 </ul>
             </div>
             <div class="pricing-card">
@@ -116,8 +116,8 @@
                     <li>Full Exterior Polish</li>
                     <li>Cab Deep Clean</li>
                     <li>Bed Cleaning</li>
-                    <li>Basic: <span class="price">$70</span></li>
-                    <li>Premium: <span class="price">$100</span></li>
+                    <li>Basic: <span class="price">$120</span></li>
+                    <li>Premium: <span class="price">$220</span></li>
                 </ul>
             </div>
             <div class="pricing-card">
@@ -126,19 +126,20 @@
                     <li>Complete Wash & Wax</li>
                     <li>Interior Detailing</li>
                     <li>Wheel Cleaning</li>
-                    <li>Basic: <span class="price">$60</span></li>
-                    <li>Premium: <span class="price">$90</span></li>
+                    <li>Basic: <span class="price">$100</span></li>
+                    <li>Premium: <span class="price">$200</span></li>
                 </ul>
             </div>
         </div>
     </section>
     <section class="contact">
         <h2>Contact Us</h2>
-        <p>Call us at <a href="tel:+1234567890">+1 (234) 567-890</a> or email <a href="mailto:info@revupdetailing.com">info@revupdetailing.com</a></p>
+        <p>Call us at <a href="tel:+1 7069969005">+1 (706) 996-9005</a> or email <a href="mailto:ACPDetail45@gmail.com">ACPDetail45@gmail.com</a></p>
         <p>Check us out on <a href="https://g.co/kgs/your-google-business-link" target="_blank">Google Business</a></p>
     </section>
     <footer>
-        <p>&copy; 2025 RevUp Mobile Detailing. All rights reserved.</p>
+        <p>&copy; 2025 ACP Mobile Detailing. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
