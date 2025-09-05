@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevUp Mobile Detailing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(to bottom, #b30000, #1a1a1a);
+            text-align: center;
+            padding: 2em;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+        }
+        .pricing {
+            padding: 2em;
+            text-align: center;
+        }
+        .pricing h2 {
+            font-size: 2em;
+            color: #b30000;
+        }
+        .pricing-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
+        .pricing-card {
+            background: #333;
+            border: 2px solid #b30000;
+            border-radius: 10px;
+            padding: 1em;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+        .pricing-card h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        .pricing-card li {
+            margin: 0.5em 0;
+        }
+        .pricing-card .price {
+            font-size: 1.2em;
+            color: #b30000;
+            font-weight: bold;
+        }
+        .contact {
+            background: #333;
+            text-align: center;
+            padding: 2em;
+        }
+        .contact a {
+            color: #b30000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #1a1a1a;
+            text-align: center;
+            padding: 1em;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .pricing-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RevUp Mobile Detailing</h1>
+        <p>Top-Notch Detailing for Cars, Trucks, and SUVs</p>
+    </header>
+    <section class="pricing">
+        <h2>Our Services</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Car Detailing</h3>
+                <ul>
+                    <li>Exterior Wash & Wax</li>
+                    <li>Interior Vacuum & Clean</li>
+                    <li>Tire Shine</li>
+                    <li>Basic: <span class="price">$50</span></li>
+                    <li>Premium: <span class="price">$80</span></li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>Truck Detailing</h3>
+                <ul>
+                    <li>Full Exterior Polish</li>
+                    <li>Cab Deep Clean</li>
+                    <li>Bed Cleaning</li>
+                    <li>Basic: <span class="price">$70</span></li>
+                    <li>Premium: <span class="price">$100</span></li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>SUV Detailing</h3>
+                <ul>
+                    <li>Complete Wash & Wax</li>
+                    <li>Interior Detailing</li>
+                    <li>Wheel Cleaning</li>
+                    <li>Basic: <span class="price">$60</span></li>
+                    <li>Premium: <span class="price">$90</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Call us at <a href="tel:+1234567890">+1 (234) 567-890</a> or email <a href="mailto:info@revupdetailing.com">info@revupdetailing.com</a></p>
+        <p>Check us out on <a href="https://g.co/kgs/your-google-business-link" target="_blank">Google Business</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 RevUp Mobile Detailing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
